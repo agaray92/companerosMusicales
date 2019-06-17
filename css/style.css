@@ -975,3 +975,9 @@ a {
 .marginTopTituloVideo{
   margin-top: 200px !important;
 }
+
+@media (max-width: 768px) {
+  .img-fluid-logo {
+    max-width: 250% !important;
+  }
+}
