@@ -981,3 +981,8 @@ a {
     max-width: 250% !important;
   }
 }
+
+.error-formulario {
+  font-size: 0.8em;
+  color: #A93226;
+}
