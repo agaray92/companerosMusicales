@@ -56,23 +56,7 @@
 
                 <div class="d-inline-block ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
 
-                <ul class="site-menu js-clone-nav d-none">
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="about.html">Quienes somos</a></li>
-                    <li class="has-children"><a href="episodes.html">Episodios</a>
-                      <ul>
-                        <li><a href="temporadaDos.html">Segunda Teporada</a></li>
-                        <li><a href="temporadaUno.html">Primera Temporada</a></li>
-                      </ul>
-                    </li>
-                    <li class="has-children"><a>Fotos</a>
-                      <ul>
-                        <li><a href="lanzamiento1.html">Fiesta Lanzamiento</a></li>
-                        <li><a href="arkham1.html">Arkham</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="contact.html">Contacto</a></li>
-                  </ul>
+                <div id="menuCompleto"></div>
             </nav>
 
 
@@ -246,20 +230,7 @@
           <div class="col-lg-4 mb-5 mb-lg-0">
             <div class="mb-5">
               <h3 class="footer-heading mb-4">Podcast Recientes</h3>
-              <div class="block-25">
-                <ul class="list-unstyled">
-                  <li class="mb-3">
-                    <a href="busStrike.html" class="d-flex">
-                      <figure class="image mr-4">
-                        <img src="images/episodio29.jpeg" alt="" class="img-fluid">
-                      </figure>
-                      <div class="text">
-                        <h3 class="heading font-weight-light">Episodio 29: Bus Strike</h3>
-                      </div>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+              <div class="block-25" id="footerUltimoEpisodio">
             </div>
             <div class="mb-5">
               <h3 class="footer-heading mb-4">Síguenos</h3>
@@ -327,6 +298,7 @@
 
 
   <script src="js/main.js"></script>
+  <script src="js/menuFooter.js"></script>
   <script async src="https://widget.spreaker.com/widgets.js"></script>  
   </body>
 </html>
